@@ -37,4 +37,4 @@ if __name__ == '__main__':
     model = load_model('finalized_model.h5')
     home_away = p.load(open('index_labels.sav', 'rb'))
     inputs_data = p.load(open('testing_set.sav', 'rb'))
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='18.217.154.9')
